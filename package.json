@@ -1,0 +1,19 @@
+{
+  "name": "slidev-demo",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "export:dark": "slidev export --dark"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "shiki": "^0.14.0"
+  },
+  "engines": {
+    "node": ">=16.13.1"
+  }
+}
